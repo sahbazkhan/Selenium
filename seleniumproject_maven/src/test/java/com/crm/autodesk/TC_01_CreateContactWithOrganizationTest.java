@@ -1,4 +1,4 @@
-package com.crm.autodesk.genericLibraries;
+package com.crm.autodesk;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,6 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import com.crm.autodesk.genericLibraries.ExcelFileUtility;
+import com.crm.autodesk.genericLibraries.JSONFileUtility;
+import com.crm.autodesk.genericLibraries.JavaUtility;
+import com.crm.autodesk.genericLibraries.PropertyFileUtility;
+import com.crm.autodesk.genericLibraries.WebDriverUtility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
