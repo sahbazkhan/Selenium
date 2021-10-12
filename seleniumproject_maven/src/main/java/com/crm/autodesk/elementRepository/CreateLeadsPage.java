@@ -135,6 +135,7 @@ public class CreateLeadsPage extends WebDriverUtility {
 			compEdt.sendKeys(cName);
 			select(leadsRatingDrop, rating);
 			saveBtn.click();
+			//use for validate
 			
 	  }
 	  public void clickRadio(String last, String cName) {
